@@ -1,3 +1,10 @@
-name: Noah Willard
+name: NCOMPLETE
+description: Thinking on Design, Being & Incompleteness - AKA -
+  forgetting to stop asking questions halfway through answering them.
+
+# avatar: add later
 markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
+
+footer-links:
+  twitter: nuanc3
