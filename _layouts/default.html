@@ -14,6 +14,9 @@
 				integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
 				crossorigin = "anonymous">
 
+			<!-- Fonts -->
+			<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Lora:400i,700" rel="stylesheet">
+
 			<!-- jQuery Library -->
 			<script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js"
 				integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
@@ -45,34 +48,32 @@
 					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
 					    <ul class="navbar-nav m-auto font-weight-light justify-content-center">
 					      <li class="nav-item active">
-					        <a class="nav-link" href="#"> Now <span class="sr-only">(current)</span></a>
+					        <a class="nav-link" href="#"> Flows <span class="sr-only">(current)</span></a>
 					      </li>
 								<li class="nav-item dropdown">
 					        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-					          What
+					          Essays
 					        </a>
 					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-					          <a class="dropdown-item" href="#">Essays</a>
-					          <a class="dropdown-item" href="#">Poetry</a>
+					          <a class="dropdown-item" href="#">Architecture & Politics</a>
+					          <a class="dropdown-item" href="#">Information</a>
+										<a class="dropdown-item" href="#">Design</a>
 					          <div class="dropdown-divider"></div>
-					          <a class="dropdown-item" href="#">Photography</a>
+					          <a class="dropdown-item" href="#">Musings & Fiction</a>
 					        </div>
 					      </li>
 								<li class="nav-item">
-	 							 <a class="nav-link" href="#"> Who </a>
+	 							 <a class="nav-link" href="#"> Bursts </a>
 	 						 </li>
 							 <li class="nav-item">
-							 <a class="nav-link" href="#"> When </a>
+							 <a class="nav-link" href="#"> Poetry </a>
 						 	</li>
-							<li class="nav-item">
-							 <a class="nav-link" href="#"> Where </a>
-						 </li>
+							<!-- <li class="nav-item">
+							 <a class="nav-link" href="#"> Photography </a>
+						 </li> -->
 					      <li class="nav-item">
-					        <a class="nav-link" href="#"> Why </a>
+					        <a class="nav-link" href="#"> Noah </a>
 					      </li>
-								<li class="nav-item">
-								 <a class="nav-link" href="#"> How </a>
-							 </li>
 <!-- 		 				Disabled example
 								<li class="nav-item">
 					        <a class="nav-link disabled" href="#">Disabled</a>
@@ -80,20 +81,21 @@
 					    </ul>
 					  </div>
 					</nav>
-
+					<div class="banner-background absolute">
+					</div>
 					<div class="container main_content">
-						<div class="row">
+						<div class="row banner-graphic">
 							<div class="col-xl">
 								<h1 class="text-center font-weight-bolder giant">N</h1>
 								<h3 class="text-center font-weight-light" >COMPLETE </h3>
-								<p class="text-center font-weight-light font-italic"> Too / Much / Thinking / About  / Being Human </p>
+								<p class="text-center font-weight-light font-italic"> Too / Much / Thinking  </p>
 						</div>
 					</div>
 
-			<div class="container-fluid">
+			<div class="container-fluid below-banner">
 				<div class="row justify-content-md-center">
-					<div class="col-md-8">
-			{{ content }}
+					<div class="col-md-8 blog-posts">
+						{{ content }}
 					</div>
 				</div>
 			</div><!-- /.container -->

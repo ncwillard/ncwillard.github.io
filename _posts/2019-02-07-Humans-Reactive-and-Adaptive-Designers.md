@@ -2,9 +2,12 @@
 layout: post
 title: "Humans: The Adaptive & Reactive Designers"
 date: 2019-02-07
+categories: "flows"
 ---
 
 Humans are by our biological and perceptual natures adaptive designers. In a given physical & cognitive context, an environment, an instance of information, humans will react by designing a pattern of linked thoughts and actions which reflects four things: a value set, a knowledge-awareness set, an emotional set, and the limitations of the time-material context.  The form of this solution is a human’s thoughts often linked with action(s). Additionally, emergent influences frame these four sets: relationships with people, objects and ideas, symbols, metaphors, memory, and sensory experience. Each can be reduced into component parts chemically, biologically, religiously, linguistically, culturally, sociologically, philosophically, psychologically, and anthropologically.
+
+<img src="../../../../../images/tower1.jpg" style="max-width:100%;"/>
 
 Yes experiences themselves can be administered in a controlled manner, but the perceived point of emanation of the experience matters to the human. On conscious reflection humans can resist or comprehend as different or separate a consciousness with a known source of emanation that is not from within. The human aware of a machine or drug administering an experience will be conscious of it differently than one who is unaware that a machine or drug administered an identical experience. Reducing or reinterpreting experiences or phenomena effects humans’ conscious reflection, reassociating of stimuli stored in memory and at a neurological level how human brains gather and associate future stimuli. In other words, the act of imposing an experience modifies the instrument and the human identity depending in part on how aware the subject is of the source, so in an instance of "administered experience” where the emanation originated from an external source or agent the reaction is two-fold within this framework. The human reacts to the first three interwoven sets above as they perceive it to exist in themselves, the time material context, and another partial image of the first three sets as either imposed and interpreted or experienced due to an altered consciousness and interpreted.
 

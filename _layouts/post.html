@@ -2,12 +2,33 @@
 layout: default
 ---
 
+<header>
+
+<div class="context">
+	<span>contextual things</span>
+</div>
+</header>
+
 <article class="post">
 	<h1>{{ page.title }}</h1>
 	<h5>{{ page.date | date_to_string }}</h5>
 
-	<div class="entry">
-		{{ content }}
+	<div class="post-meta-data">
+		<ul class = "tag hide">
+				<li class="topic"><a href="#"></a>
+					</li>
+				<li class ="edge"><a href="#"></a>
+					</li>
+				<li class ="node"><a href="#"></a>
+					</li>
+		</ul>
 	</div>
+	<header class="summary">
+		<h1></h1>
+		<p></p>
+	</header>
+	<section class="entry">
+			{{ content }}
+	</section>
 
 </article>
