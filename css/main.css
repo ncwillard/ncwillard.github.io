@@ -1,6 +1,6 @@
 /*  actions */
 .hide {
-  display:none !important; 
+  display:none !important;
 }
 
 
@@ -53,6 +53,7 @@ footer {
 .giant {
   margin-bottom:-20px;
   font-size: 8rem;
+  font color:#010101;
 }
 .absolute {
   position: absolute !important;
@@ -69,6 +70,9 @@ footer {
 .banner-graphic {
   max-height:20rem;
   margin-top:5rem;
+}
+.banner-graphic h1, h3, p {
+  
 }
 .banner-background {
   background-image: url("../images/Lines.png"), none;
