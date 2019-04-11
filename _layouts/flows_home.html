@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="utf-8">
+			<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="/css/main.css">
+
+			<!-- Compiled and Minified Bootstrap CSS -->
+			<link rel = "stylesheet"
+				href = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+				integrity = "sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+				crossorigin = "anonymous">
+
+			<!-- Fonts -->
+			<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans|Lora:400i,700" rel="stylesheet">
+
+			<!-- jQuery Library -->
+			<script src = "https://code.jquery.com/jquery-3.2.1.slim.min.js"
+				integrity = "sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+				crossorigin = "anonymous">
+			</script>
+
+			<!-- Popper -->
+			<script src = "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+				integrity = "sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+				crossorigin = "anonymous">
+			</script>
+
+		<!-- Compiled and Minified Bootstrap JavaScript -->
+		<script src = "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+			integrity = "sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+			crossorigin = "anonymous">
+		</script>
+
+		</head>
+		<body>
+					<!--  new -->
+
+					<nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+					  <a class="navbar-brand" href="/">N</a>
+					  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+					    <span class="navbar-toggler-icon"></span>
+					  </button>
+
+					  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+					    <ul class="navbar-nav m-auto font-weight-light justify-content-center">
+					      <li class="nav-item active">
+					        <a class="nav-link" href="/n-complete/flows"> Flows <span class="sr-only">(current)</span></a>
+					      </li>
+								<li class="nav-item dropdown">
+					        <a class="nav-link dropdown-toggle" href="/n-complete/essays" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+					          Essays
+					        </a>
+					        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+					          <a class="dropdown-item" href="#">Architecture & Politics</a>
+					          <a class="dropdown-item" href="#">Information</a>
+										<a class="dropdown-item" href="#">Design</a>
+					          <div class="dropdown-divider"></div>
+					          <a class="dropdown-item" href="#">Musings & Fiction</a>
+					        </div>
+					      </li>
+								<li class="nav-item">
+	 							 <a class="nav-link" href="/n-complete/bursts"> Bursts </a>
+	 						 </li>
+							 <li class="nav-item">
+							 <a class="nav-link" href="/n-complete/poetry"> Poetry </a>
+						 	</li>
+							<!-- <li class="nav-item">
+							 <a class="nav-link" href="#"> Photography </a>
+						 </li> -->
+					      <li class="nav-item">
+					        <a class="nav-link" href="#"> Noah </a>
+					      </li>
+<!-- 		 				Disabled example
+								<li class="nav-item">
+					        <a class="nav-link disabled" href="#">Disabled</a>
+					      </li> -->
+					    </ul>
+					  </div>
+					</nav>
+					<div class="banner-background banner-background_flow absolute">
+					</div>
+					<div class="container main_content ">
+						<div class="row banner-graphic">
+							<div class="col-xl">
+								<h1 class="text-center banner-text-flow font-weight-bolder giant">N</h1>
+								<h3 class="text-center banner-text-flow font-weight-light" >COMPLETE </h3>
+								<h5 class="text-center banner-text-flow font-weight-light font-italic"> Flows of Thought </h5>
+						</div>
+					</div>
+
+			<div class="container-fluid below-banner">
+				<div class="row justify-content-md-center">
+					<div class="col-md-8 blog-posts">
+						{{ content }}
+					</div>
+				</div>
+			</div><!-- /.container -->
+			<footer class="footer page-footer">
+			{% include svg-icons.html %}
+			</footer>
+		</body>
+	</html>
