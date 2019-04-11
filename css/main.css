@@ -71,6 +71,9 @@ footer {
   max-height:20rem;
   margin-top:5rem;
 }
+.banner-graphic-text h5 {
+
+}
 .banner-text {
   letter-spacing: -0.1rem;
   color: #333;
@@ -101,6 +104,11 @@ footer {
 @media (max-width: 576px) {
   .below-banner {
     margin-top: 1.5rem;
+  }
+}
+@@media (max-width: 480px) {
+  .banner-graphic-text {
+    margin-top: -1rem;
   }
 }
 /*
