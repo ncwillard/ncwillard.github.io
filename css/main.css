@@ -71,8 +71,10 @@ footer {
   max-height:20rem;
   margin-top:5rem;
 }
-.banner-graphic h1, h3, p {
-  
+.banner-text {
+  letter-spacing: -0.1rem;
+  color: #333;
+  text-shadow: none;
 }
 .banner-background {
   background-image: url("../images/Lines.png"), none;
@@ -84,6 +86,14 @@ footer {
   display: flex;
   justify-content:center;
   top:2.5rem;
+}
+.banner-background_flow {
+    background-image: url("../images/flows.png"), none;
+}
+.banner-text-flow {
+  color:#fefefe;
+  text-shadow: #010101 1px 1px 3px;
+  letter-spacing: 0.1rem;
 }
 .below-banner {
   margin-top: 1.8rem;

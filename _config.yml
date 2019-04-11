@@ -4,7 +4,7 @@ description: Thinking on Design, Being & Incompleteness - AKA -
 
 # avatar: add later
 markdown: kramdown
-permalink: n-complete/:categories/:year/:month/:day/:title
+permalink: n-complete/:categories/:title/:year-:month-:day/
 
 footer-links:
   twitter: nuanc3
