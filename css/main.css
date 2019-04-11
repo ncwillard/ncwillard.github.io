@@ -58,6 +58,7 @@ footer {
 .absolute {
   position: absolute !important;
 }
+
 .custom-margin {
   padding-top: 0.15rem;
   margin-top:-0.4rem;
@@ -65,11 +66,11 @@ footer {
   border-top: #cdcdcd solid 1px;
 }
 .main_content {
-  margin-top:2.5rem;
+  margin-top:0rem;
 }
 .banner-graphic {
   max-height:20rem;
-  margin-top:5rem;
+  margin-top:3.25rem;
 }
 .banner-graphic-text h5 {
 
@@ -88,7 +89,7 @@ footer {
   max-height:18.25rem;
   display: flex;
   justify-content:center;
-  top:2.5rem;
+  top:0;
 }
 .banner-background_flow {
     background-image: url("../images/flows.png"), none;
@@ -99,21 +100,20 @@ footer {
   letter-spacing: 0.1rem;
 }
 .below-banner {
-  margin-top: 1.8rem;
+  margin-top: 3.7rem;
 }
 @media screen and (max-width: 576px) {
   .below-banner {
-    margin-top: 1.7rem;
+    margin-top: 3.7rem;
   }
     .banner-background {
       background-size: 125%;
   }
-}
-@@media (width > 320px) and (width < 576px) {
-
+  .banner-graphic {
+    margin-top:2.5rem;
   }
-
 }
+
 /*
 Blog css
  */
