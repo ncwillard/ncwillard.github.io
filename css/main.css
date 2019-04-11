@@ -101,15 +101,18 @@ footer {
 .below-banner {
   margin-top: 1.8rem;
 }
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .below-banner {
-    margin-top: 1.5rem;
+    margin-top: 1.7rem;
+  }
+    .banner-background {
+      background-size: 125%;
   }
 }
-@@media (max-width: 480px) {
-  .banner-graphic-text {
-    margin-top: -1rem;
+@@media (width > 320px) and (width < 576px) {
+
   }
+
 }
 /*
 Blog css
