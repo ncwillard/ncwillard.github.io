@@ -114,6 +114,18 @@ footer {
   }
 }
 
+@media screen and (max-width: 576px) and (min-pixel-device-ratio: 2) {
+  .below-banner {
+    margin-top: 3.7rem;
+  }
+    .banner-background {
+      background-size: 125%;
+  }
+  .banner-graphic {
+    margin-top:2.5rem;
+  }
+}
+
 /*
 Blog css
  */
